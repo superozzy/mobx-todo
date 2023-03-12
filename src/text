@@ -1,0 +1,37 @@
+// @observer
+// export default class ToDoList extends React.Component {
+
+//   handleSubmit(e) {
+//     console.log(this.props.store.addTodos(e.target.value));
+
+//     console.log(e.target.value);
+//     e.target.value = "";
+//     console.log(e.target.value);
+//   }
+
+//   render() {
+//     const { todos } = this.props.store;
+//     trace(todos);
+//     console.log(todos);
+//     return (
+//       <div className="input">
+//         <p>Todos</p>
+//         <p>You have {todos.length} thing to do Today</p>
+
+//         <input
+//           type="text"
+//           className="create-input"
+//           placeholder="Add Task"
+//           onChange={(e) => e.target.value}
+//         />
+//         <button onClick={this.handleSubmit.bind(this)}>Add</button>
+
+//         <div className="diplay-todos">
+//           {todos.map((todo) => (
+//             <li key={todo}>{todo.value}</li>
+//           ))}
+//         </div>
+//       </div>
+//     );
+//   }
+// }
